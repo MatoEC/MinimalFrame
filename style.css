@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "s_medium" ;
+}
+@font-face {
+    font-family: "s_light";
+    src: url(fonts/SUSE-Light.ttf);
+}
+@font-face {
+    font-family: "s_bold";
+    src: url(fonts/SUSE-Bold.ttf);
+}
+@font-face {
+    font-family: "s_medium";
+    src: url(fonts/SUSE-Medium.ttf);
+}
+
+#logo {
+    background: url(img/logo.png) no-repeat ;
+    background-size: contain;
+    margin-left: 70px;
+    margin-top: 5px;
+    width: 5vw;
+    height: 5vh;
+    font-size: 0;
+}
+
+#saas {
+    padding: 0;
+    margin: auto;
+}
+.soos{
+    margin-left: 200px;
+}
+
+.nav-link {
+    color: rgb(40, 46, 51);
+    padding: 20px 0 0 0;
+    border: 0 aliceblue dotted !important;
+}
+
+.nav-link:hover {
+    color: aliceblue;
+    border-bottom: 0 aliceblue dotted;
+}
+
+#jeder {
+    background-color: rgb(196, 196, 196) !important;
+    padding: 0 !important;
+}
+
+.nav-item:hover { 
+    border-bottom: 2px solid aliceblue;
+}
+
+
+#carousel {
+    width: 98.7vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: aliceblue;
+    color: rgb(196, 196, 196);
+    border: 0;
+    margin: auto;
+    align-items: end;
+}
+
+.pastillitas {
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn:hover {
+    background-color: rgb(40, 46, 51);
+    color: aliceblue;
+}
+
+.botoncito {
+    padding: 0;
+}
+.ItemContacto{
+    background-color: rgb(255, 249, 241);
+    color: rgb(12, 0, 10);
+    border: 0;
+}
+.ItemContacto:hover{
+    background-color: rgb(78, 0, 65);
+    color: rgb(255, 249, 241);
+    border: 0;
+}
+.coord {
+    padding: 0;
+    padding-left: 100px;
+}
+#proyectos {
+    padding: 0;
+
+}
+#servicios {
+    padding: 0;
+    margin: 0;
+}
+#cards {
+    padding-top: 30px !important;
+    width: 90vw;
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: row;
+    
+}
+.card {
+    padding: 0px;
+}
+.pastillitas {
+    color: rgb(255, 255, 255);
+}
+.principal{
+    font-size: xx-large;
+    color: rgb(56, 255, 189);
+}
+
+#contacto {
+
+    width: 100%;
+}
+
+.vidio {
+    height: 70vh;
+}
+#servicios2{
+    display: none;
+}
+.soos2{
+    display: none;
+}
+.carrusel2 {
+    display: none;
+}
+.proyectos{
+    font-size: x-large;
+}
+
+.offcanvas-body { 
+    background-color: rgb(196, 196, 196) !important;
+}
+
+#collapseExample { 
+    width: 70% ;
+    margin: auto;
+}
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.botoncito {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.coord {
+    text-align: center;
+    padding: 0
+}
+
+
+@media (max-width: 780px) {
+    #logo {
+        background: url(img/logo.png) no-repeat ;
+        background-size: contain;
+        margin-left: 0px;
+        margin-top: 5px;
+        width: 5vw;
+        height: 5vh;
+        font-size: 0;
+        position: absolute;
+        left: 20px;
+    }
+    .soos{
+        margin-left: 250px;
+    }
+    #jeder { height: 7vh;
+    justify-content: center;
+    }
+
+
+}
+@media (max-width: 500px) {
+ #servicios {
+    display: none;
+ }
+ #servicios2{
+    display: block;
+
+ }
+ .botoncito{
+    margin: 0 auto;
+    padding-left: 175px;
+}
+.soos{
+    display: none;
+}
+.buscar{
+    display: none;
+}
+#logo{
+    display: none;
+}
+.soos2{
+    display: flex;
+
+}
+#carousel{
+    display: none;
+}
+.carrusel2{
+    display: block;
+    margin-top: 50px;
+}
+
+.contac { display: none !important;}
+
+.offcanvas-header { 
+    height: 56px;
+}
+
+}
+
+.serviciosItem{
+    background-color: rgb(10, 0, 8);
+    color: rgb(255, 248, 238)
+}
+.serviciosItem:hover{
+    background-color: rgb(255, 241, 252);
+    color: rgb(10, 0, 8);
+}
+.servicios2Item{
+    background-color: rgb(10, 0, 8);
+    color: rgb(255, 248, 238)
+}
+.servicios2Item:hover{
+    background-color: rgb(255, 241, 252);
+    color: rgb(10, 0, 8);
+}
+.parrafoServicios2{
+    background-color: rgb(255, 187, 0);
+    color: rgb(255, 248, 238);
+}
+.enviar{
+    background-color: rgb(10, 0, 8);
+    color: rgb(255, 248, 238)
+}
+.enviar:hover{
+    background-color: rgb(255, 241, 252);
+    color: rgb(10, 0, 8);
+    border: 0;
+}
+
+
+h1{
+    font-family: "s_bold";
+}
+h2{
+    font-family: "s_bold";
+}
+h3{
+    font-family: "s_bold";
+}
+h4{
+    font-family: "s_bold";
+}
+#texto_f{
+    font-size: x-small;
+}
+header ul li a{
+    color: white;
+}
+body{
+    background: url(img/fondo.jpg);
+    color: rgb(255, 248, 238);
+}
+footer{
+    
+    color: white;
+    background-color: black;
+}
